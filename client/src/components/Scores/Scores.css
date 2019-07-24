@@ -1,0 +1,26 @@
+.scoreSection {
+    background-color: rgb(70, 126, 196);
+    color: rgb(99, 227, 146);
+    height: 10%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+.curScore {
+    display: inline-block;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1
+}
+.highScore {
+    display: inline-block;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1
+}

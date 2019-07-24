@@ -1,0 +1,13 @@
+.rules {
+    background-color: rgb(70, 126, 196);
+    color: rgb(99, 227, 146);
+    position: fixed;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 40px;
+    font-weight: bold
+}
